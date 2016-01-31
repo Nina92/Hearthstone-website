@@ -1,0 +1,162 @@
+header {
+    height: 200px;
+}
+
+.bannerimage {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #E49E35;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
+    -ie-padding-start: 0;
+}
+
+nav li {
+    background-color: #6D5E48;
+    float: left;
+    width: calc(20% - 10px);
+    width: -webkit-calc(20% - 10px);
+    width: -moz-calc(20% - 10px);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+nav a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 21px;
+    color: #fff;
+    line-height: 50px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/*http://cssarrowplease.com*/
+.arrow_box {
+    position: relative;
+    background: #6D5E48;
+}
+
+.arrow_box:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-top-color: #6D5E48;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: #F7EBB4;
+    border-radius: 10px;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #640000;
+}
+
+h1, h2, h3 {
+    font-family: "Amaranth", sans-serif;
+}
+
+article {
+    padding: 0 25px 25px 25px;
+    overflow: auto;
+}
+
+article ul {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #000;
+}
+
+p {
+    font-family: "ubuntu", sans-serif;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+article p {
+    text-align: justify;
+}
+
+a {
+    font-family: "ubuntu", sans-serif;
+    text-decoration: underline;
+    color: #000;
+}
+
+article a:visited {
+    color: #000;
+}
+
+.img_left {
+    float:left;
+    margin: 25px 10px 0 0;
+}
+
+.text_heroes {
+    text-align: center;
+}
+
+.text_heroes p {
+    text-align: center;
+}
+
+.wrapper {
+    width: 717px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.hero {
+    width: 209px;
+    float: left;
+    height: 375px;
+    margin: 15px;
+}
+
+.herotext {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+}
+
+section {
+    overflow: auto;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+}
